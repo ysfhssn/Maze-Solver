@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+}
+body {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+.grid-container {
+    user-select: none; /* fix drawing bugs */
+    display: grid; 
+    width: 75vw; 
+    height: 75vh; 
+    margin: 30px; 
+}
+.box { border: 1px solid black; }
+.src { background-color: green; }
+.dest { background-color: red; }
+.barrier { background-color: black; }
+.path { background-color: blue; }
